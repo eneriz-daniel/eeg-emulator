@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LM2663M
+D DC-DC converter,LM2664M6 -Vin 1 off
+K
+F http://www.ti.com/lit/ds/symlink/lm2663.pdf
+$ENDCMP
+#
+$CMP 74HC08D,653
+D 74HC(T)08 - Quad 2-input AND gate@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT08.pdf
+$ENDCMP
+#
+$CMP 74HC4051D,653
+D 74HC4051; 74HCT4051 - 8-channel analog multiplexer/demultiplexer@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf
+$ENDCMP
+#
+$CMP 74HC191D,653
+D 74HC191 - Presettable synchronous 4-bit binary up/down counter@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC191.pdf
+$ENDCMP
+#
+$CMP ADG719BRTZ-REEL
+D Analog Switch ICs LOW VOLTAGE SINGEL SPDT
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG719.pdf
+$ENDCMP
+#
+$CMP 74HC1G04GV,125
+D 74HC(T)1G04 - Inverter@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G04.pdf
+$ENDCMP
+#
+$CMP XG4C-1631
+D OMRON ELECTRONIC COMPONENTS - XG4C-1631 - WIRE-BOARD CONNECTOR PLUG, 16 POSITION, 2.54MM
+K
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-fcc.pdf
+$ENDCMP
+#
+$CMP TL082IDRQ1
+D Automotive Catalog JFET-Input Operational Amplifier
+K
+F http://www.ti.com/lit/gpn/tl082-q1
+$ENDCMP
+#
+$CMP IRF8714TRPBF
+D Infineon IRF8714TRPBF N-channel MOSFET, 14 A, 30 V HEXFET, 8-Pin SOIC
+K
+F https://componentsearchengine.com/Datasheets/2/IRF8714TRPBF.pdf
+$ENDCMP
+#
+$CMP TL082ID
+D TL082ID, Dual Operational Amplifier 3MHz, 8-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/tl082a.pdf
+$ENDCMP
+#
+#End Doc Library

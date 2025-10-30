@@ -1,0 +1,338 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.28/8/3/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1000 500 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1218414" 1000 -100 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1218414" 1000 -200 50 H I L CNN "RS Price/Stock"
+F10 "NE555DR" 1000 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne555dr/texas-instruments" 1000 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+T 0 600 -100 50 0 0 1 "555" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM2663M
+#/155400/1376969/2.50/8/3/Integrated Circuit
+DEF LM2663M IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LM2663M" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm2663.pdf" 950 0 50 H I L CNN
+F4 "DC-DC converter,LM2664M6 -Vin 1 off" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM2663M" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "926-LM2663M" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2663M?qs=X1J7HmVL2ZHFGrkO6N4iag%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LM2663M" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lm2663m/texas-instruments?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SD 1 0 0 200 R 50 50 0 0 P
+X CAP+ 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X CAP- 4 0 -300 200 R 50 50 0 0 P
+X V+ 8 1100 0 200 L 50 50 0 0 P
+X OSC 7 1100 -100 200 L 50 50 0 0 P
+X LV 6 1100 -200 200 L 50 50 0 0 P
+X OUT 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC08D,653
+#/3783153/1376969/2.50/14/2/Integrated Circuit
+DEF 74HC08D,653 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74HC08D,653" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT08.pdf" 850 0 50 H I L CNN
+F4 "74HC(T)08 - Quad 2-input AND gate@en-us" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC08D,653" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74HC08D-T" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC08D653?qs=P62ublwmbi%2FQCxm29EB%2FyA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC08D,653" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc08d653/nexperia?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 1Y 3 0 -200 200 R 50 50 0 0 P
+X 2A 4 0 -300 200 R 50 50 0 0 P
+X 2B 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 4B 13 1000 -100 200 L 50 50 0 0 P
+X 4A 12 1000 -200 200 L 50 50 0 0 P
+X 4Y 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC4051D,653
+#/3660600/1376969/2.50/16/2/Integrated Circuit
+DEF 74HC4051D,653 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74HC4051D,653" 850 200 50 H V L CNN
+F2 "74HC4051D653" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf" 850 0 50 H I L CNN
+F4 "74HC4051; 74HCT4051 - 8-channel analog multiplexer/demultiplexer@en-us" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC4051D,653" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74HC4051D-T" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC4051D653?qs=P62ublwmbi%2FWMqN3hyrSvQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC4051D,653" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc4051d653/nexperia?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X Y4 1 0 0 200 R 50 50 0 0 P
+X Y6 2 0 -100 200 R 50 50 0 0 P
+X Z 3 0 -200 200 R 50 50 0 0 P
+X Y7 4 0 -300 200 R 50 50 0 0 P
+X Y5 5 0 -400 200 R 50 50 0 0 P
+X ~E 6 0 -500 200 R 50 50 0 0 P
+X VEE 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X S2 9 1000 -700 200 L 50 50 0 0 P
+X S1 10 1000 -600 200 L 50 50 0 0 P
+X S0 11 1000 -500 200 L 50 50 0 0 P
+X Y3 12 1000 -400 200 L 50 50 0 0 P
+X Y0 13 1000 -300 200 L 50 50 0 0 P
+X Y1 14 1000 -200 200 L 50 50 0 0 P
+X Y2 15 1000 -100 200 L 50 50 0 0 P
+X VCC 16 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC191D,653
+#/660200/1376969/2.50/16/3/Integrated Circuit
+DEF 74HC191D,653 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC191D,653" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC191.pdf" 950 0 50 H I L CNN
+F4 "74HC191 - Presettable synchronous 4-bit binary up/down counter@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Nexperia" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC191D,653" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-HC191D653" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC191D653?qs=P62ublwmbi9%2FTWjp%252B5Cw9g%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC191D,653" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc191d653/nexperia?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X D1 1 0 0 200 R 50 50 0 0 P
+X Q1 2 0 -100 200 R 50 50 0 0 P
+X Q0 3 0 -200 200 R 50 50 0 0 P
+X ~CE 4 0 -300 200 R 50 50 0 0 P
+X ~U~/D 5 0 -400 200 R 50 50 0 0 P
+X Q2 6 0 -500 200 R 50 50 0 0 P
+X Q3 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1100 0 200 L 50 50 0 0 P
+X D0 15 1100 -100 200 L 50 50 0 0 P
+X CP 14 1100 -200 200 L 50 50 0 0 P
+X ~RC 13 1100 -300 200 L 50 50 0 0 P
+X TC 12 1100 -400 200 L 50 50 0 0 P
+X ~PL 11 1100 -500 200 L 50 50 0 0 P
+X D2 10 1100 -600 200 L 50 50 0 0 P
+X D3 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ADG719BRTZ-REEL
+#/326024/1376969/2.50/6/3/Integrated Circuit
+DEF ADG719BRTZ-REEL IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ADG719BRTZ-REEL" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG719.pdf" 850 0 50 H I L CNN
+F4 "Analog Switch ICs LOW VOLTAGE SINGEL SPDT" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADG719BRTZ-REEL" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADG719BRTZ-R" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG719BRTZ-REEL?qs=BpaRKvA4VqFcRR5Hn5HqeQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADG719BRTZ-REEL" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adg719brtz-reel/analog-devices?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X S2 6 1000 0 200 L 50 50 0 0 P
+X D 5 1000 -100 200 L 50 50 0 0 P
+X S1 4 1000 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC1G04GV,125
+#/646808/1376969/2.50/5/2/Integrated Circuit
+DEF 74HC1G04GV,125 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC1G04GV,125" 950 200 50 H V L CNN
+F2 "SOT95P275X110-5N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G04.pdf" 950 0 50 H I L CNN
+F4 "74HC(T)1G04 - Inverter@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Nexperia" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC1G04GV,125" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74HC1G04GV" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G04GV125?qs=P62ublwmbi%252BhlT6GBdDTRQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC1G04GV,125" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc1g04gv125/nexperia?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X n.c. 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1100 0 200 L 50 50 0 0 P
+X VCC 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XG4C-1631
+#/659897/1376969/2.50/16/3/Connector
+DEF XG4C-1631 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "XG4C-1631" 750 200 50 H V L CNN
+F2 "SHDR16W70P254_2X8_2760X850X900P" 750 100 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-fcc.pdf" 750 0 50 H I L CNN
+F4 "OMRON ELECTRONIC COMPONENTS - XG4C-1631 - WIRE-BOARD CONNECTOR PLUG, 16 POSITION, 2.54MM" 750 -100 50 H I L CNN "Description"
+F5 "9" 750 -200 50 H I L CNN "Height"
+F6 "OMRON Electronic Components LLC" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "XG4C-1631" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "653-XG4C-1631" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/XG4C-1631?qs=zPELyVczQCNXlLhjtfY7jA%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "XG4C-1631" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/xg4c-1631/omron?utm_currency=USD&region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL082IDRQ1
+#/753705/1376969/2.50/8/3/Integrated Circuit
+DEF TL082IDRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TL082IDRQ1" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tl082-q1" 950 0 50 H I L CNN
+F4 "Automotive Catalog JFET-Input Operational Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL082IDRQ1" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TL082IDRQ1" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL082IDRQ1?qs=WxL8HmPi5r4J2reA45P6Ig%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TL082IDRQ1" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tl082idrq1/texas-instruments?utm_currency=USD&region=europe" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1100 0 200 L 50 50 0 0 P
+X 2OUT 7 1100 -100 200 L 50 50 0 0 P
+X 2IN- 6 1100 -200 200 L 50 50 0 0 P
+X 2IN+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRF8714TRPBF
+#/934383/1376969/2.50/8/3/Integrated Circuit
+DEF IRF8714TRPBF IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "IRF8714TRPBF" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/IRF8714TRPBF.pdf" 850 0 50 H I L CNN
+F4 "Infineon IRF8714TRPBF N-channel MOSFET, 14 A, 30 V HEXFET, 8-Pin SOIC" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Infineon" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IRF8714TRPBF" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "942-IRF8714TRPBF" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF8714TRPBF?qs=9%252BKlkBgLFf3ax24bpXyyJg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "IRF8714TRPBF" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/irf8714trpbf/infineon-technologies-ag?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_4 8 1000 0 200 L 50 50 0 0 P
+X D_3 7 1000 -100 200 L 50 50 0 0 P
+X D_2 6 1000 -200 200 L 50 50 0 0 P
+X D_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL082ID
+#/2584/1376969/2.50/8/3/Integrated Circuit
+DEF TL082ID IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TL082ID" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl082a.pdf" 1050 0 50 H I L CNN
+F4 "TL082ID, Dual Operational Amplifier 3MHz, 8-Pin SOIC" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL082ID" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TL082ID" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL082ID?qs=3FVjRv9mUZ%2F3jKlD1ZivWw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TL082ID" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tl082id/texas-instruments" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1_IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1200 0 200 L 50 50 0 0 P
+X 2OUT 7 1200 -100 200 L 50 50 0 0 P
+X 2IN- 6 1200 -200 200 L 50 50 0 0 P
+X 2IN+ 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
+

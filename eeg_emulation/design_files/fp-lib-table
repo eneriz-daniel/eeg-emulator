@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/SamacSys_Parts.mod")(options "")(descr ""))
+)

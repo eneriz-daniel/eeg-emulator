@@ -1,0 +1,61 @@
+site_name: eeg-emulator
+site_url: https://eneriz-daniel.com/eeg-emulator
+
+repo_url: https://github.com/eneriz-daniel/eeg-emulator
+copyright: Copyright &copy; 2025 Daniel Enériz
+
+nav:
+  - Home: index.md
+  - EEG Emulation: eeg_emulation.md
+  - EEG Acquisition: eeg_acquisition.md
+  - ADS1299 Driver Reference:
+    - Python frontend: ads1299_driver/python.md
+  - License: license.md
+
+theme:
+  name: material
+
+  icon:
+    logo: material/brain
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - kroki
+  - mkdocstrings
+  - search
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js  

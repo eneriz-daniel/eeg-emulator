@@ -1,0 +1,51 @@
+[project]
+name = "eeg-emulator"
+version = "0.1.0"
+description = "Hardware and software to emulate EEG signals and aquire them using a ADS1299."
+authors = [{name = "Daniel Enériz", email = "eneriz@unizar.es"}]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "nidaqmx>=1.0.2",
+    "numpy>=2.2.4",
+    "overdue>=0.1.5",
+    "pandas>=2.2.3",
+    "pyqt6>=6.9.0",
+    "pyqtgraph>=0.13.7",
+    "pyserial>=3.5",
+    "tqdm>=4.67.1",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
+version_files = [
+    "pyproject.toml:version"
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "commitizen>=4.6.0",
+    "flake8>=7.2.0",
+    "isort>=6.0.1",
+    "pre-commit>=4.2.0",
+    "ruff>=0.11.5",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-kroki-plugin>=0.9.0",
+    "mkdocs-material>=9.6.11",
+    "mkdocstrings-c>=0.1.0",
+    "mkdocstrings[python]>=0.29.1",
+    "pymdown-extensions>=10.14.3",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+fixable = ["ALL"]

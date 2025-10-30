@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ADS1299IPAG
+D Low-Noise, 8-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements
+K
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ADS1299&&fileType=pdf
+$ENDCMP
+#
+$CMP LM2663M
+D DC-DC converter,LM2664M6 -Vin 1 off
+K
+F http://www.ti.com/lit/ds/symlink/lm2663.pdf
+$ENDCMP
+#
+$CMP XG4C-1631
+D OMRON ELECTRONIC COMPONENTS - XG4C-1631 - WIRE-BOARD CONNECTOR PLUG, 16 POSITION, 2.54MM
+K
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-fcc.pdf
+$ENDCMP
+#
+$CMP ADS1299-6PAG
+D Low-Noise, 6-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements
+K
+F http://www.ti.com/lit/gpn/ads1299-6
+$ENDCMP
+#
+#End Doc Library
