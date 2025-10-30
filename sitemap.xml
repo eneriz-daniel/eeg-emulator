@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://eneriz-daniel.com/eeg-emulator/</loc>
+         <lastmod>2025-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://eneriz-daniel.com/eeg-emulator/eeg_acquisition/</loc>
+         <lastmod>2025-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://eneriz-daniel.com/eeg-emulator/eeg_emulation/</loc>
+         <lastmod>2025-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://eneriz-daniel.com/eeg-emulator/license/</loc>
+         <lastmod>2025-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://eneriz-daniel.com/eeg-emulator/ads1299_driver/python/</loc>
+         <lastmod>2025-10-30</lastmod>
+    </url>
+</urlset>
