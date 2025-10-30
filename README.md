@@ -1,5 +1,7 @@
 # EEG Emulation and Acquisition
 
+> Documentation is available at: [https://eneriz-daniel.com/eeg-emulator/](https://eneriz-daniel.com/eeg-emulator/)
+
 This repository contains the design files, code, and documentation for an EEG
 emulation and acquisition system. The system is designed to emulate an EEG headset
 using a custom PCB that demultiplexes signals from a National Instruments
@@ -46,7 +48,7 @@ The repository is organized into the following main directories and files:
 - Clone the repository:
 
     ```bash
-    git clone https://github.com/eneriz-daniel/bci-emulated-eeg-tflite.git
+    git clone https://github.com/eneriz-daniel/eeg-emulator.git
     ```
 
 - Install the required packages:
